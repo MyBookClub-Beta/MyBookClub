@@ -25,10 +25,10 @@ function Signup() {
   };
 
   return (
-    <><div>Welcome to MyBookClub!</div>
+    <>
       <div className="signup">
-        <h1>Sign Up</h1>
-        <label>Firstname</label>
+        <h1 className=" bg-gray-100" >Sign Up</h1>
+        <label >Firstname</label>
         <input type="text" onChange={(e)=>{setFirstName(e.target.value);}}/>
         <label>Lastname</label>
         <input type="text" onChange={(e)=>{setLastName(e.target.value);}}/>
@@ -40,6 +40,7 @@ function Signup() {
         <input type="text" onChange={(e)=>{setPassword(e.target.value);}}/>
         <button onClick={signUp}>Register</button>
       </div>
+      
     </>
   );
 }
