@@ -1,5 +1,5 @@
 <div align="center">
-   <img width="50px" src="client/assets/Book.png"/>
+   <img width="150px" src="client/assets/Book.png"/>
    <h1>Booked</h1>
    <h3 align="center"> <strong>A place for people to create and manage their book clubs with ease</strong></h3>
    </div>
@@ -24,15 +24,16 @@
   - click on your handle to fork to your repo
 
 2. Clone this repository
-   - enter the following line into your command line and insert your copied url instead of the quoted text:
-   ```
-   git clone 'copied url'
-   ```
+
+- enter the following line into your command line and insert your copied url instead of the quoted text:
+```
+git clone 'copied url'
+```
 3. Install your npm dependencies: run `npm install` in your terminal.
 
 4. Copy `template.env` and create a `.env` file in the project root.
-   - Specify the Postgres database connection URI as `DB_URI`.
-   - Secret key for auth as `SECRET_KEY`.
+- Specify the Postgres database connection URI as `DB_URI`.
+- Secret key for auth as `SECRET_KEY`.
 
 5. Start the app `npm run dev`.
 
