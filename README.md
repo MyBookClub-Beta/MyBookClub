@@ -1,6 +1,6 @@
 <div align="center">
    <img width="150px" src="client/assets/Book.png"/>
-   <h1>Booked</h1>
+   <h1>📚 Booked 📚</h1>
    <h3 align="center"> <strong>A place for people to create and manage their book clubs with ease</strong></h3>
    </div>
    
@@ -35,7 +35,7 @@ git clone 'copied url'
 - Specify the Postgres database connection URI as `DB_URI`.
 - Secret key for auth as `SECRET_KEY`.
 
-5. Start the app `npm run dev`.
+5. Start your node server and compile the application, run the following: `npm run dev`.
 
 ## <a name="developers"></a>⌨️ Developers
 -   [Jonathan Haviv](https://github.com/jonathanhaviv)
