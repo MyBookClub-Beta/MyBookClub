@@ -20,7 +20,7 @@
 
 1. Fork this repo
   - click on the **Fork** button on the top right of the page
-    <br><img src="./docs/assets/images/fork_button.jpg" width="300px"></img>  
+    <br><img src="https://www.earthdatascience.org/images/earth-analytics/git-version-control/githubguides-bootcamp-fork.png" width="300px"></img>  
   - click on your handle to fork to your repo
 
 2. Clone this repository
